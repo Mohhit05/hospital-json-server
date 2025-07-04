@@ -2,7 +2,7 @@
   "name": "hospital-json-server",
   "version": "1.0.0",
   "scripts": {
-    "start": "json-server --watch data.json --port 3000"
+    "start": "json-server --watch data.json --host 0.0.0.0 --port $PORT"
   },
   "dependencies": {
     "json-server": "^0.17.0"
